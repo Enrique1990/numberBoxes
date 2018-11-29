@@ -1,0 +1,30 @@
+body{
+  padding: 0;
+  margin: 10vh 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.board {
+  display: flex;
+  flex-direction: column;
+  min-height: auto;
+  flex: 1;
+  max-width: 35vw;
+  min-width: 35vw;
+}
+.row {
+  display: flex;
+  flex-direction:row;
+  min-height: 18vh;
+  max-height: 18vh;
+}
+.col {
+  display: flex;
+  flex: 1;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255,255, 255); 
+  font-size: 40px;
+}
